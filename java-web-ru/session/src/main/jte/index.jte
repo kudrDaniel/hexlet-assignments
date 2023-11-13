@@ -10,11 +10,11 @@ content = @`
             @if(page.getName() != null)
                 <h1>${page.getName().toString()}</h1>
                 <form action="${NamedRoutes.logoutPath()}" method="post">
-                    <input type="submit" class="btn btn-primary" value="Р’С‹Р№С‚Рё" />
+                    <input type="submit" class="btn btn-primary" value="Выйти" />
                 </form>
             @else
                 <h1>Войдите в систему</h1>
-                <a class="btn btn-primary" href="${NamedRoutes.buildSessionPath()}">Р’РѕР№С‚Рё</a>
+                <a class="btn btn-primary" href="${NamedRoutes.buildSessionPath()}">Войти</a>
             @endif
         </main>
     </div>

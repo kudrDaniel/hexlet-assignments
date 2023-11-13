@@ -24,7 +24,7 @@ content = @`
                     <input type="password" class="form-control" required name="password" />
                 </label>
             </div>
-            <input type="submit" class="btn btn-primary" value="Р’РѕР№С‚Рё" />
+            <input type="submit" class="btn btn-primary" value="Войти" />
         </form>
     </div>
 `
